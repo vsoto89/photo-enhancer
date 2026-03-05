@@ -11,7 +11,7 @@ class ImageEhancer:
             model_path=CONFIG["model_url"],
             upscale=CONFIG["upscale"],
             arch=CONFIG["arch"],
-            channel_multiplier=CONFIG["chanel_multiplier"],
+            channel_multiplier=CONFIG["channel_multiplier"],
             bg_upsampler=None
         )
         return model
